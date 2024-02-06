@@ -1,0 +1,43 @@
+
+nav{
+    /* margin: 10px auto; */
+    padding: 10px 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background: rgba(70, 23, 143, 1);
+    
+  }
+  nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  nav a:hover{
+    color: orange;
+  }
+  .logo{
+    margin-left: 50px;
+    padding-left: 10px;
+    color: white;
+    font-size: 30px;
+  }
+  .icon1{
+
+    margin-left: auto;
+    margin-right: 32px;
+  }
+  .icon2{
+  
+  /* margin-left: auto; */
+  margin-right: 30px;
+  }
+  
+  .icon3{
+  
+  /* margin-left: 20px; */
+  margin-right: 50px;
+  }
+  

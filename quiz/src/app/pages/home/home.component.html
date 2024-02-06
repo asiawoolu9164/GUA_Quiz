@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+
+<div class="title" *ngFor="let i of data">
+    <h3>{{i.title}}</h3>
+    <div class="main">
+    
+        <div *ngFor="let j of i.quize">
+            <img [src]="j.image" alt="">
+            <p>{{j.name}}</p>
+        </div>
+
+    </div>
+</div>

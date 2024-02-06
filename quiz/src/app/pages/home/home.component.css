@@ -1,0 +1,28 @@
+.title{
+    width: 1088px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.main{
+display: grid ;
+grid-template-columns: auto auto auto;
+column-gap: 94px;
+
+}
+.main div p{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.title h3{
+    color: white;
+    margin-bottom: 30px;
+   
+    
+}
+
+
+

@@ -1,0 +1,68 @@
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    width: 900px;
+    height: 400px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .container .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .container .text {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 15%;
+  }
+
+  .data {
+    margin-top: 20px;
+    border-bottom: 1px solid #000; /* สีของเส้นประ */
+    padding-bottom: 10px; /* ระยะห่างด้านล่างของเส้นประ */
+    margin-bottom: 20px; /* ระยะห่างด้านล่างของข้อความ */
+    width: 50%; /* กำหนดความกว้างของเส้นประ */
+    margin-left: 25%; /* ขยับเส้นประไปทางซ้าย */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* จัดปุ่มให้อยู่ตรงกลางแนวนอน */
+  align-items: center; /* จัดปุ่มให้อยู่ตรงกลางแนวตั้ง */
+  width: 100hv;
+  /* height: 100vh; ให้ความสูงเท่ากับความสูงของหน้าจอ */
+ 
+}
+
+.btn {
+  background-color:  #4CAF50;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  width: 250px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 10px; /* เพิ่มระยะห่างรอบขอบของปุ่ม */
+ 
+
+}
+
+.btn:hover {
+  background-color: #0b95a8;
+}
