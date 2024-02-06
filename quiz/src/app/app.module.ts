@@ -10,6 +10,7 @@ import { CreatequizComponent } from './pages/createquiz/createquiz.component';
 import { NavbarComponent } from './componets/navbar/navbar.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { QuizComponent } from './pages/quiz/quiz.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
     CreatequizComponent,
     NavbarComponent,
     HistoryComponent,
-    ProfileComponent
+    ProfileComponent,
+    QuizComponent
   ],
   imports: [
     BrowserModule,

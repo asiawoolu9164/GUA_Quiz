@@ -6,6 +6,7 @@ import { MyquizComponent } from './pages/myquiz/myquiz.component';
 import { CreatequizComponent } from './pages/createquiz/createquiz.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { HistoryComponent } from './pages/history/history.component';
+import { QuizComponent } from './pages/quiz/quiz.component';
 
 const routes: Routes = [
   {path:'login' ,component:LoginComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:'createquiz',component:CreatequizComponent},
   {path: 'profile',component:ProfileComponent},
   {path: 'history',component:HistoryComponent},
+  {path: 'quiz',component:QuizComponent},
   {path:'**',redirectTo:'login'}
 ];
 
