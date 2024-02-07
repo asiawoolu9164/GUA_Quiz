@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    margin-top: 3%;
+    color: white;
+}
+.banana{
+    /* ข้อความ */
+    text-align: center;
+    margin: 3%;
+    color: white;
+}
+.coconut{
+    /* div class รวม */
+    margin-left: 10%;
+    display: flex;
+}
+.person{
+    /*ช่องเปล่า*/margin-left: 2%;
+    border: 2px solid black;
+    padding: 1%;
+    width: 60%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.monter{
+    /* ระดับอ่อนหัด */
+    margin-left: 10%;
+    color: white;
+}
+.locate{
+    /*ใส่รูป*/border: 2px dashed rgba(129, 122, 122, 1);
+    padding: 1%;
+    margin-left: 0.5%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.data{
+    /* คะแนน */
+    margin: 5%;
+    margin-left: 19%;
+    color: white;
+}
+.perple{
+    /*คำอธิบาย*/margin-top: 1%;
+    margin-left: 24.70%;
+    padding: 0.5%;
+    border: 2px dashed rgba(129, 122, 122, 1);
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+}
+.sentent{
+    /*เพิ่มระดับ*/margin-top: 3%;
+    margin-left: 24.70%;
+    padding: 1%;
+    width: 54.20%;
+    border: 2px dashed rgba(129, 122, 122, 1);
+    border-radius:5px ;
+    -webkit-border-radius:7px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.concle{
+    /*เสร็จสิ้น*/margin-left: 47%;
+    margin-top: 5%;
+    padding: 0.5%;
+    width: 10%;
+    background-color: rgba(19, 104, 206, 1);
+    color: white;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}

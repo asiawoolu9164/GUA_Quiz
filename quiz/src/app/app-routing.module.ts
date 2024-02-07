@@ -9,6 +9,7 @@ import { HistoryComponent } from './pages/history/history.component';
 import { QuizComponent } from './pages/quiz/quiz.component';
 import { PlayResultsComponent } from './play-results/play-results.component';
 import { CreatefinComponent } from './pages/createfin/createfin.component';
+import { ScorecreateComponent } from './scorecreate/scorecreate.component';
 
 const routes: Routes = [
   {path:'login' ,component:LoginComponent},
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path: 'quiz',component:QuizComponent},
   {path:  'results', component:PlayResultsComponent},
   {path: 'createfin', component:CreatefinComponent},
+  {path: 'scorecreate', component:ScorecreateComponent},
   {path:'**',redirectTo:'login'}
 ];
 
