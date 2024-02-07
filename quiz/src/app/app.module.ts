@@ -12,7 +12,7 @@ import { HistoryComponent } from './pages/history/history.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { QuizComponent } from './pages/quiz/quiz.component';
 import { PlayResultsComponent } from './play-results/play-results.component';
-import { CreatefinComponent } from './createfin/createfin.component';
+import { CreatefinComponent } from './pages/createfin/createfin.component';
 
 @NgModule({
   declarations: [
