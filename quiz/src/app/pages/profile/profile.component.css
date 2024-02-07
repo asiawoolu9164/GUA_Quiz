@@ -3,9 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 50px;
   /* height: 100hv; */
-  margin-left: 30px;
 }
 .column1 {
   display: grid;

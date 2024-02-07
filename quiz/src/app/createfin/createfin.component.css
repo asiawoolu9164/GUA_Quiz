@@ -1,0 +1,87 @@
+.headtext h1 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for the image container */
+.img {
+    /* display: flex; */
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+
+/* Style for the box */
+.box-1 {
+    /* display: flex; */
+    background-color: #ffffff;
+    padding: 20px;
+    height: 650px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.data-img{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: rgba(70, 23, 143, 1);
+}
+.data-img p{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: rgb(137, 137, 137);
+}
+
+
+.data-link {
+    margin-top: 10px;
+    text-align: center; /* ยืดหยุ่นเนื้อหาให้อยู่ตรงกลาง */
+    
+}
+.data-link h3 {
+    color: black; /* Set text color to black for h3 elements inside .data-link */
+}
+
+.data-link a {
+    color: blue; /* Set text color to blue for anchor elements inside .data-link */
+}
+.data-url{
+    margin-top: 10px;
+    text-align: center;
+}
+.btn{
+    margin-top: 30px;
+    
+   
+}
+.custom-button{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: rgba(44, 111, 242, 1);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+   
+}
+
+.custom-button1{
+    width: 300px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    
+}
+.box-btn{
+    text-align: center;
+}
