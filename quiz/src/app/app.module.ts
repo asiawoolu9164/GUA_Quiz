@@ -11,9 +11,11 @@ import { NavbarComponent } from './componets/navbar/navbar.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { QuizComponent } from './pages/quiz/quiz.component';
-import { PlayResultsComponent } from './play-results/play-results.component';
+import { PlayResultsComponent } from './pages/play-results/play-results.component';
 import { CreatefinComponent } from './pages/createfin/createfin.component';
-import { ScorecreateComponent } from './scorecreate/scorecreate.component';
+import { ScorecreateComponent } from './pages/scorecreate/scorecreate.component';
+import { SignupComponent } from './pages/signup/signup.component';
+import { ForogtpassComponent } from './pages/forogtpass/forogtpass.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ScorecreateComponent } from './scorecreate/scorecreate.component';
     QuizComponent,
     PlayResultsComponent,
     CreatefinComponent,
-    ScorecreateComponent
+    ScorecreateComponent,
+    SignupComponent,
+    ForogtpassComponent
   ],
   imports: [
     BrowserModule,

@@ -7,9 +7,11 @@ import { CreatequizComponent } from './pages/createquiz/createquiz.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { QuizComponent } from './pages/quiz/quiz.component';
-import { PlayResultsComponent } from './play-results/play-results.component';
+import { PlayResultsComponent } from './pages/play-results/play-results.component';
 import { CreatefinComponent } from './pages/createfin/createfin.component';
-import { ScorecreateComponent } from './scorecreate/scorecreate.component';
+import { ScorecreateComponent } from './pages/scorecreate/scorecreate.component';
+import { ForogtpassComponent } from './pages/forogtpass/forogtpass.component';
+import { SignupComponent } from './pages/signup/signup.component';
 
 const routes: Routes = [
   {path:'login' ,component:LoginComponent},
@@ -22,6 +24,8 @@ const routes: Routes = [
   {path:  'results', component:PlayResultsComponent},
   {path: 'createfin', component:CreatefinComponent},
   {path: 'scorecreate', component:ScorecreateComponent},
+  {path: 'signup', component:SignupComponent},
+  {path: 'forgot', component:ForogtpassComponent},
   {path:'**',redirectTo:'login'}
 ];
 
